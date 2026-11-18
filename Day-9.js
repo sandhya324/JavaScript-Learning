@@ -20,14 +20,14 @@
 
 
 // Q2 — Predict the output
-let x = 10;
+// let x = 10;
 
-{
-    let x = 20;
-    console.log(x);
-}
+// {
+//     let x = 20;
+//     console.log(x);
+// }
 
-console.log(x);
+// console.log(x);
 
 // Output:
 // 20
@@ -37,16 +37,16 @@ console.log(x);
 
 
 // Q3 — What happens?
-console.log(a);
-var a = 50;
+// console.log(a);
+// var a = 50;
 
 // ans: a is in a Temporal dead zone and it will give a ReferenceError
 
 
 
 // Q4 — What happens?
-console.log(a);
-let a = 50;
+// console.log(a);
+// let a = 50;
 
 // ans: a is in a Temporal dead zone and it will give a ReferenceError
 
@@ -58,24 +58,23 @@ let a = 50;
 
 
 // Q5 — Predict the output
-function greet() {
-    console.log("Hello");
-}
+// function greet() {
+//     console.log("Hello");
+// }
 
-greet();
+// greet();
 // output:
-Hello
-
+// Hello
 
 
 // Then change it to:
-greet();
+// greet();
 
-function greet() {
-    console.log("Hello");
-}
-Output:
- Hello 
+// function greet() {
+//     console.log("Hello");
+// }
+// Output:
+//  Hello 
 
 // Does it still work? Why?
 // Ans: because greet() is Hoisted that make it accessible before declaration
@@ -84,25 +83,25 @@ Output:
 
 
 // Q6 — Find the output
-let a = 10;
+// let a = 10;
 
-function outer() {
+// function outer() {
 
-    let b = 20;
+//     let b = 20;
 
-    function inner() {
+//     function inner() {
 
-        let c = 30;
+//         let c = 30;
 
-        console.log(a);
-        console.log(b);
-        console.log(c);
-    }
+//         console.log(a);
+//         console.log(b);
+//         console.log(c);
+//     }
 
-    inner();
-}
+//     inner();
+// }
 
-outer();
+// outer();
 
 // Draw the scope chain yourself.
 // 1. first js will called outer function.

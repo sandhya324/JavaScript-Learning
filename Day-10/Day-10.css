@@ -1,0 +1,16 @@
+.active {
+  color: green;
+  background-color: #dcfce7;
+  padding: 15px;
+}
+
+.hidden {
+  display: none;
+}
+
+
+
+
+img{
+  width: 100px;
+}
